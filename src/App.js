@@ -4,15 +4,30 @@ import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Dashboard from './Components/dashboard';
 import Preferences from './Components/preferences';
-import Login from './Components/Login/login';
-
+import Homepage from './Components/Homepage/homepage';
+import Image from './Components/Image/image';
+import Navbar from './Components/Navbar/navbar';
+import Loginform from './Components/Login/login';
 //dashbord and preferences are place holders for the stuff after the log in page
 
 function App() {
 
   return (
-    <div className="Wrapper">
+    
       <Login></Login>
+  
+
+  return (
+    <div className="Wrapper">
+      <BrowserRouter>
+      <Navbar></Navbar>
+      <Homepage></Homepage>
+      <Image></Image>
+      <Routes>
+        <Route path='/dashboard' element={<Dashboard/>}> </Route>
+        <Route path='/preferences' element={<Preferences/>}></Route>
+      </Routes>
+      </BrowserRouter>
     </div>
   );
 }
