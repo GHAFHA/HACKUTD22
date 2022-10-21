@@ -1,24 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import './login.css'
+/*
+login page notes
+start with a div
+create header, then the username and password feilds
+*/
 
-export default function Login(){
-    return(
-
-    <div className="login-wrapper">
-        <h1>Enter Login Information</h1>
-        <form>
-      <label>
-        <p>Username</p>
-        <input type="text" />
-      </label>
-      <label>
-        <p>Password</p>
-        <input type="password" />
-      </label>
-      <div>
-        <button type="submit">Submit</button>
-      </div>
-     </form>
+//this is using props
+const Loginform = () => {
+  return(
+    <div className="cover">
+      <h1>Login</h1>
+      <input type="text" placeholder="username" />
+      <input type="text" placeholder="password" />
+      <div className="login-btn">Login</div>
     </div>
-    )
+  )
 }
+
+export default Loginform;
