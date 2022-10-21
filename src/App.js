@@ -13,11 +13,6 @@ import Loginform from './Components/Login/login';
 function App() {
 
   return (
-    
-      <Login></Login>
-  
-
-  return (
     <div className="Wrapper">
       <BrowserRouter>
       <Navbar></Navbar>
