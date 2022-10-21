@@ -19,16 +19,16 @@
 
 /* this is creating the box that everything will sit inside of for the login componets*/
 .cover{
-background-color: rgb(143, 43, 43);
-width: 20em;
-height: 20em;
+background-color: rgb(180, 179, 179);
+width: 15em;
+height: 15em;
 position: relative;
 border-radius: 1em;
 box-shadow: 0 0.188em 1.550em rgb(100, 156, 156);
 display: flex;
 flex-direction: column;
 align-items: center;
-justify-content: space-around;
+justify-content: space-evenly;
 }
 
 .login-btn{
@@ -44,3 +44,17 @@ justify-content: space-around;
 }
 
 .login-btn:hover{transform: scale(1.1);}
+
+input{
+    border: none;
+    height: 30px;
+    width: 200px;
+    border-radius: 3px;
+    padding: 6px;
+    text-align: center;
+    background-color: rgb(242, 250, 248);
+}
+
+input:focus{
+    outline-color: rgb(8, 9, 10);
+}
