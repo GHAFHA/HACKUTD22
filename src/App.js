@@ -10,12 +10,14 @@ import Homepage from './Components/Homepage/homepage';
 import Image from './Components/Image/image';
 import Navbar from './Components/Navbar/navbar';
 import Loginform from './Components/Login/login';
+import FAQ from "./Components/FAQ/FAQ"
 //dashbord and preferences are place holders for the stuff after the log in page
 
 function App() {
 
   return (
     <div className="Wrapper">
+      <FAQ></FAQ>
       <AboutUs> </AboutUs>
       <BrowserRouter>
       <Navbar></Navbar>
@@ -27,7 +29,9 @@ function App() {
       </Routes>
       </BrowserRouter>
     </div>
+
   );
 }
+
 
 export default App;

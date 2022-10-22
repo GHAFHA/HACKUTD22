@@ -1,0 +1,55 @@
+.title{
+
+    color: #85662b;
+    font-family:cursive;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .content{
+  
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large ;
+    max-height: 0;
+    overflow:  hidden;
+    transition: all 0.5 cubic-bezier(0,1,0,1);
+    
+  }
+  .items{
+    background: #f0ebe1;
+    margin-bottom: 5px;
+    padding: 10px 20px;
+  }
+  
+  .accordion{
+    width: 500px;
+    
+    
+  }
+  .wrapper{
+    background-color: #ffb3bd;
+    display:  flex;
+    height: 100vh;
+    width: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  .content.show{
+    height: auto;
+    max-height: 9999px;
+    transition: all 0.5 cubic-bezier(1,0,1,0);
+  }
+  .App-header {
+    
+
+      max-height: 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: top;
+      justify-content: left;
+      font-size: 50px;
+      color: rgb(3, 3, 3);
+    background-color: #ffb3bd;
+  
+    }
