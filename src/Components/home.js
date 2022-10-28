@@ -1,7 +1,7 @@
 import React from "react";
 
-export default function Preferences(){
+export default function Home(){
     return(
-        <h2>Preferences</h2>
+        <h2>Home</h2>
     );
 }
