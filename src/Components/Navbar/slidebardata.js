@@ -13,7 +13,7 @@ export const SidebarData = [
   },
   {
     title: "My Profile",
-    path: "/AboutUs",
+    path: "/MyProfile",
     icon: <FaIcons.FaCartPlus />,
     cName: "nav-text"
   },
