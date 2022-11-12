@@ -1,11 +1,16 @@
 import React from 'react';
 import "./HomePage.css";
+import {Container} from 'react-bootstrap'
 
 export default function HomePage() {
    
     return (
-   <div id="homepage-container">
-        
-    </div>
+    <Container>
+        <div id ="#homepage-container">
+            Hello
+
+        </div>
+
+    </Container>
     )
 }
