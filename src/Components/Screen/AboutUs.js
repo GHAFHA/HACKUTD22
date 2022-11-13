@@ -7,7 +7,7 @@ function App() {
       <header className= 'App-header'>
         <Container fluid>
   `  <h1 className =  "header"> About Us </h1>
-      <p className='paragraph1'> We are a group of students working on Goldman Sach's sentiment analysis challenge for HackUTD 2022.</p>
+      <p className='paragraph1'> We are a group of students working on financial sentiment analysis challenge for HackUTD 2022.</p>
 
       <p className = "paragraph2"> Our product focuses on analyzing current trends of the stock market. The AWS API is used to 
           deliver an assessment of whether the user should invest in a certain stock or not. We use Twitter's 
