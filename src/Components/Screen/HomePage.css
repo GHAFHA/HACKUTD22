@@ -1,7 +1,14 @@
 .text-container{
     border-style: solid;
     border-radius: 10px;
-    border-color: #1cfc0c;
+    border-color:#ffffff;
+    margin: 5px;
+}
+
+.text-container-pos{
+    border-style: solid;
+    border-radius: 10px;
+    border-color:#1cfc0c;
     margin: 5px;
 }
 
@@ -19,6 +26,21 @@
     height: auto;
     width: auto;
     border-color: #1cfc0c;
+}
+
+.value-container{
+    display: block;
+    color:white;
+    height: 40px;
+    width: 80px;
+    border-style: solid;
+    border-color:#ffffff;
+    border-radius: 10px;
+    position: relative;
+    margin: 5px;
+    left: 400px;
+    top: -100px;
+    justify-content: center;
 }
 
 #homepage-main{
@@ -59,7 +81,7 @@
     height: 700px;
     background-color: black;
     position: relative;
-    top: -750px;
+    top: -760px;
     left: 800px;
     border-style: solid;
     border-radius: 10px;
@@ -73,9 +95,15 @@
     position: relative;
     left: 9px;
     margin: 3px;
+    border-radius: 5px;
     
 }
 
+#filter-button{
+    margin: 10px;
+    height: 30px;
+    width: 80px;
+}
 h1{
     color: white;
 }
