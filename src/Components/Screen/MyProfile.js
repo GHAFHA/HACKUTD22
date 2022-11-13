@@ -13,6 +13,14 @@ export default function MyProfile() {
              
         <div id="chartDiv"> <PieRechartComponent></PieRechartComponent> </div>
         </div>
+
+        <div id="rec-holder">
+            <div id="recomendation"> 
+            <div className='Recs'>
+            <h1 id="rec-header">Recomendations</h1>
+            </div>
+            </div>
+        </div>
         </Container>
     </div>
     

@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className= 'App-header'>
         <Container fluid>
-  `  <h1 className =  "header"> About Us </h1>
+    <h1 className =  "header"> About Us </h1>
       <p className='paragraph1'> We are a group of students working on financial sentiment analysis challenge for HackUTD 2022.</p>
 
       <p className = "paragraph2"> Our product focuses on analyzing current trends of the stock market. The AWS API is used to 

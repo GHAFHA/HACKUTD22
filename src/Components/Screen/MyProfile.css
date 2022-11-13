@@ -36,3 +36,20 @@
     border: 2px solid rgb(90, 40, 40);
     
 }
+
+#rec-holder{
+    height: 250px;
+    width: 750px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    left: 450px;
+    margin: 15px;
+}
+
+#rec-header{
+text-align: center;
+}
+
