@@ -1,12 +1,28 @@
 import React from 'react';
-import './AboutUs.css';
-
+import { Container } from 'react-bootstrap';
+import './MyProfile.css';
+import PieRechartComponent from './TestChart';
 export default function MyProfile() {
    
     return (
-   <div className = "AboutUs">
-        <h1> About Us </h1>
-        <p> We are a group of students practicing ReactJS to prepare for the upcoming UTD Hackathon</p>
+   
+   <div id='ProfileWrapper' >
+        <Container>
+        <div id="Profile">
+        <h1 id="pageTitle"> My Investment Profile </h1>
+             
+        <div id="chartDiv"> <PieRechartComponent></PieRechartComponent> </div>
+        </div>
+
+        <div id="rec-holder">
+            <div id="recomendation"> 
+            <div className='Recs'>
+            <h1 id="rec-header">Recomendations</h1>
+            </div>
+            </div>
+        </div>
+        </Container>
     </div>
+    
     )
 }
